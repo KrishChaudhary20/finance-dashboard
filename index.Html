@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Financial Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Financial Dashboard</h1>
+  <div class="cards">
+
+    <div class="card">
+      <h3>Total Income</h3>
+      <p class="value">₹4,719</p>
+      <span class="positive">+16.1%</span>
+    </div>
+
+    <div class="card">
+      <h3>Total Expenses</h3>
+      <p class="value">₹3,270</p>
+      <span class="positive">+16.1%</span>
+    </div>
+
+    <div class="card">
+      <h3>Accounts Receivable</h3>
+      <p class="value">₹609</p>
+      <span class="negative">-5.1%</span>
+    </div>
+
+    <div class="card">
+      <h3>Accounts Payable</h3>
+      <p class="value">₹538</p>
+      <span class="negative">-15.7%</span>
+    </div>
+
+    <div class="card">
+      <h3>Net Profit</h3>
+      <p class="value">₹629</p>
+      <span class="negative">-8.8%</span>
+    </div>
+
+    <div class="card">
+        <h3>Account Balance</h3>
+        <p class="value">₹7,684</p>
+        <span class="positive">+4.9%</span>
+    </div>
+  </div>
+
+  <div class="chart-box">
+  <h2>Income & Expenses</h2>
+  
+  <div class="chart-container">
+    <canvas id="barChart"></canvas>
+  </div>
+
+  <div class="circle">
+    <div class="circle-inner">
+      <h2 id="profit">25%</h2>
+      <p>Net Profit</p>
+    </div>
+  </div>
+  
+  <div class="summary">
+    <h2>Financial Summary</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
